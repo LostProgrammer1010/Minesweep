@@ -1,0 +1,19 @@
+[package]
+name = "minesweep"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "3.0.0"
+
+[dependencies.redox_liner]
+git = "https://gitlab.redox-os.org/redox-os/liner.git"
+
+[dependencies.extra]
+git = "https://gitlab.redox-os.org/redox-os/libextra.git"
+
+[dependencies.reversi]
+version = "0.5.*"
+git = "https://github.com/EGhiorzi/reversi/"
